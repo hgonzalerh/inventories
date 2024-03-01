@@ -1,0 +1,7 @@
+- name: Trae respaldo al Controlador
+  hosts: linuxserver
+  tasks:
+    - ansible.builtin.fetch:
+        src: mirespaldo
+        dest: mirespaldo
+        flat: true
