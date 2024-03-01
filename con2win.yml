@@ -1,0 +1,6 @@
+- hosts: windowsserver
+  tasks:
+    ansible.windows.win_copy:
+      src: ./mirespaldo
+      dest: c:\mirespaldo
+
