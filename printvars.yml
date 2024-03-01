@@ -1,4 +1,4 @@
-- hosts: app1&finacle
+- hosts: app1:finacle
   tasks:
     - name: Print all vars
       debug:
